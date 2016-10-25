@@ -97,4 +97,7 @@ elif gender == "male" and race == "white" and hair_color == "brown" and eye_colo
 elif gender == "male" and race == "white" and hair_color == "black" and eye_color == "blue" and face_shape == "oval":
     print("Matej stole the ice cream!!!")
 
-
+while True:
+    answer = raw_input("Do you want to exit the program(yes/no) ")
+    if answer == "yes":
+        break
