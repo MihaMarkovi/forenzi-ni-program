@@ -4,6 +4,11 @@ print("We're going to find out, who stole the ice cream")
 dnk = "ACAAGATGCCATTGTCCCCCGGCCTCCTGCTGCTGCTGCTCTCCGGGGCCACGGCCACCGCTGCCCTGCCCCTGGAGGGTGGCCCCACCGGCCGAGACAGCGAGCATATGCAGGAAGCGGCAGGAATAAGGAAAAGCAGCCTCCTGACTTTCCTCGCTTGGTGGTTTGAGTGGACCTCCCAGGCCAGTGCCGGGCCCCTCATAGGAGAGGAAGCTCGGGAGGTGGCCAGGCGGCAGGAAGGCGCACCCCCCCAGCAATCCGCGCGCCGGGACAGAATGCCCTGCAGGAACTTCTTCTGGAAGACCTTCTCCTCCTGCAAATAAAACCTCACCCATGAATGCTCACGCAAGTTTAATTACAGACCTGAA"
 
 
+print("We have got DNA, let's get started!")
+
+import time
+time.sleep(3)
+
 # barva las
 if "CCAGCAATCGC" in dnk:
     print("* Hair color is black!")
@@ -18,7 +23,8 @@ if "TTAGCTATCGC" in dnk:
     hair_color = "blonde"
 
 
-
+import time
+time.sleep(3)
 
 
 #oblika obraza
@@ -34,7 +40,8 @@ if "AGGCCTCA" in dnk:
     print("* Face shape is oval!")
     face_shape = "oval"
 
-
+import time
+time.sleep(3)
 
 
 #barva oci
@@ -52,7 +59,8 @@ if "AAGTAGTGAC" in dnk:
 
 
 
-
+import time
+time.sleep(3)
 
 
 #spol
@@ -66,7 +74,8 @@ if "TGCAGGAACTTC" in dnk:
 
 
 
-
+import time
+time.sleep(3)
 
 
 #rasa
@@ -82,7 +91,8 @@ if "CGCGGGCCG" in dnk:
     print("* Race is asian!")
     race = "asian"
 
-
+import time
+time.sleep(3)
 
 #ugotovimo, ko je osumljenec
 if gender == "female"  and race == "white" and hair_color == "blonde" and eye_color == "blue" and face_shape == "oval":
